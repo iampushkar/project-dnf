@@ -1,6 +1,8 @@
 # Project DNF (Do Not Forget)
 
 A web-based platform for tracking and organizing your technical learning progress. Keep track of resources you're studying, books you're reading, and maintain your learning journey effectively.
+<img width="1424" alt="image" src="https://github.com/user-attachments/assets/995514da-219a-4ef0-9a06-7ca68e2dae0c" />
+
 
 ## Features
 
