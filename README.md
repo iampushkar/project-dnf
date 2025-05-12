@@ -1,20 +1,41 @@
-# 🧠 Readvengers
+# 📚 Readvengers
 
-A lightweight single-page web app to track your personal reading journey across blogs, articles, and resources — Marvel-style.
+A dynamic web application to track and manage your learning resources for technical interviews and skill development.
 
-## 🚀 Features
+## Features
 
-- ✅ Mark resources as **read/unread**
-- 🧠 Filter by status: **All / Read / Unread**
-- 📁 Powered by a clean `resources.json` file
-- 💾 Progress stored in your browser using `localStorage`
-- 🌐 Host for free via GitHub Pages
+- 🔍 Search and filter resources by company, topic, type, and difficulty
+- 📊 Track your progress with visual statistics
+- 📱 Responsive design for desktop and mobile
+- 🏷️ Filter by multiple categories
+- 📈 View progress by topic
+- ⏱️ Recent completions tracking
 
-## 🔧 How to Use
+## Tech Stack
 
-1. Add your reading resources to `resources.json`
-2. Open `index.html` in a browser — or host it using GitHub Pages
-3. Click “Mark as Read” after finishing a resource
+- HTML5
+- CSS3 (with Flexbox/Grid)
+- Vanilla JavaScript
+- GitHub Pages for deployment
 
-## 📦 Folder Structure
+## Getting Started
+
+1. Clone the repository:
+```bash
+git clone https://github.com/[your-username]/readvengers.git
+```
+
+2. Open `index.html` in your browser to run locally
+
+## Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add some amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## Live Demo
+
+Visit [https://[your-username].github.io/readvengers](https://[your-username].github.io/readvengers)
 
