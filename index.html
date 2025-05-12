@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project DNFed</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>📚 Project DNF</h1>
+        <div id="progress"></div>
+    </header>
+    
+    <div id="layout">
+        <aside id="filters">
+            <div class="search-bar">
+                <input type="text" id="searchInput" placeholder="Search resources...">
+            </div>
+
+            <section>
+                <h3>Companies</h3>
+                <div id="company-filters">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </section>
+
+            <section>
+                <h3>Topics</h3>
+                <div id="topic-filters">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </section>
+
+            <section>
+                <h3>Types</h3>
+                <div id="type-filters">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </section>
+
+            <section>
+                <h3>Difficulty</h3>
+                <div id="difficulty-filters">
+                    <!-- Will be populated dynamically -->
+                </div>
+            </section>
+        </aside>
+
+        <main>
+            <div id="resourcesContainer"></div>
+            <div id="pagination">
+                <button id="prevBtn">Previous</button>
+                <button id="nextBtn">Next</button>
+            </div>
+        </main>
+        <aside id="stats-panel">
+            <section class="stats-box">
+                <h3>Overview</h3>
+                <div id="total-stats"></div>
+            </section>
+            <section class="stats-box">
+                <h3>Progress by Topic</h3>
+                <div id="topic-progress"></div>
+            </section>
+            <section class="stats-box">
+                <h3>Recent Completions</h3>
+                <div id="recent-completions"></div>
+            </section>
+        </aside>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
