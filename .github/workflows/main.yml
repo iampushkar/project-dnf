@@ -1,0 +1,22 @@
+name: CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+    
+    - name: Basic page validation
+      run: |
+        if [ -f "index.html" ]; then
+          echo "index.html exists"
+        else
+          exit 1
+        fi
